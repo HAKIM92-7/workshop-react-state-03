@@ -26,9 +26,9 @@ componentDidMount(){
 
     let date = new Date();
 
-    this.setState({date : `${17 - date.getHours().toString()} : ${45-date.getMinutes().toString()} : ${60-date.getSeconds().toString()}`})
+    this.setState({date : `${18- date.getHours().toString()} : ${60-date.getMinutes().toString()} : ${60-date.getSeconds().toString()}`})
     
-    if(date.getMinutes().toString() == 45) { alert('goumou raw7ou !!!!!') } 
+    // if(date.getMinutes().toString() == 45) { alert('goumou raw7ou !!!!!') } 
 
     }, 1000)
 
